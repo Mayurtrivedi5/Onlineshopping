@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ShopEasy - Online Shopping</title>
+    <style>
+   
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-image: url('https://www.livemint.com/lm-img/img/2025/01/31/original/daniel-korpai-HyTwtsk8XqA-unsplash_1738310265597.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-bottom: 2px solid #fff;
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+    
+        .product-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+            animation: fadeIn 2s ease-in;
+        }
+
+      
+        .product-card {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card img:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+
+        .product-card p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .product-card a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #FF9900;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .product-card a:hover {
+            background-color: #FF6600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin-top: 30px;
+        }
+
+        footer p {
+            color: #fff;
+            font-size: 1em;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ShopEasy</h1>
+        <p>Your One-Stop Online Shopping Destination</p>
+    </header>
+
+    <div class="product-section">
+        
+        <div class="product-card">
+            <img src="https://www.qrs.in/uploads/homeslider/images/61552576282993-WhatsApp-Image-2025-01-23-at-15.27.50-1-.jpeg" alt="Smartphone">
+            <h3>Smartphone X100</h3>
+            <p>Advanced features, stunning design, and great performance. The perfect smartphone for you.</p>
+          
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChsSEwijy8vD1bOLAxUCqWYCHRdoFzAYACICCAEQABoCc20&ae=2&aspm=1&co=1&ase=5&gclid=CjwKCAiAnpy9BhAkEiwA-P8N4kIloeCVcQHt0DgtW6xNMesf8UTet_Dn1jHCUEyo1hxCxfp3u-pAsxoCYRYQAvD_BwE&ohost=www.google.com&cid=CAESVuD25FUhtPIKqH9tks2TyW8GrJxDG8B0O5eFRi94o9pBlKxsHRZjjb1vFeRpcWMisaHBwh4vQIs5njXLpCmkIJvN3y48HqyA2Vvp1h6WIPxzJAACzlrn&sig=AOD64_24X85qUWn52skkirrUG68v2kyegg&q&adurl&ved=2ahUKEwi3vMLD1bOLAxX_2TgGHRV6CIEQ0Qx6BAgUEAE" target="_blank">Buy Now</a>
+        </div>
+
+      
+        <div class="product-card">
+            <img src="https://img.buzzfeed.com/store-an-image-prod-us-east-1/Wi3D_5KDw.png?crop=1059:1045;339,5&downsize=650:*&output-format=auto&output-quality=auto" alt="Headphones">
+            <h3>Wireless Headphones</h3>
+            <p>Experience the best sound quality with these premium wireless headphones.</p>
+           
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChsSEwiFst6q1bOLAxU4G4MDHX30HEgYACICCAEQCRoCc2Y&ae=2&aspm=1&co=1&ase=5&gclid=CjwKCAiAnpy9BhAkEiwA-P8N4ulE6OxKTIo1TbldvLlit0k8y38dZur7Y6B9ior5ydpJtEdC51fD5xoCwpMQAvD_BwE&ohost=www.google.com&cid=CAESVuD2gCxbhrzs2US-GYGLsOCwjnteXlG_gmEXZc-l0csZA7aRzMScGDlKZOA3SsfGZNj-neci2FQ_9PDXm-GaElVUZT_4RvwI2haKyV3tUQWoYatujX4b&sig=AOD64_0V7OJeh4VAWsSyaVkk6ZDI2_aLjg&q&adurl&ved=2ahUKEwiEm9eq1bOLAxUpzDgGHUnyH_YQ0Qx6BAgUEAE" target="_blank">Buy Now</a>
+        </div>
+
+    
+        <div class="product-card">
+            <img src="https://www.livemint.com/lm-img/img/2024/06/11/original/01_Legion_Pro_7i_Closeup_Intel_Core_1718104371214.png" alt="Gaming Laptop">
+            <h3>Gaming Laptop</h3>
+            <p>Powerful performance, sleek design. Perfect for both gaming and work.</p>
+          
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChsSEwjttJTm1bOLAxUgomYCHQwiOPIYACICCAEQBxoCc20&ae=2&aspm=1&co=1&ase=5&gclid=CjwKCAiAnpy9BhAkEiwA-P8N4kaCTr7a_sm5uy5_YM3URNDrki-DryUGC7SlLs4Ws_s3r-LWtv3asBoCZf8QAvD_BwE&ohost=www.google.com&cid=CAESVuD2LdxrAkZBFJuvvQXkK1wjMJle2FyfqrXZfxS6TTukgq6A-Cz4y8Elcpc859NYR37NMe2URaLpEa1GNZ2tVXnXffMTiK9uE8FpzT5HybfCBBxwWkBn&sig=AOD64_1eJrpFDKsDR9suakHQo2K6UzuJKw&q&adurl&ved=2ahUKEwi564vm1bOLAxWf4jgGHR0wGQsQ0Qx6BAgLEAE" target="_blank">Buy Now</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
